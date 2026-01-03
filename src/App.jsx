@@ -117,6 +117,9 @@ export default function App() {
 
   // ===== UI =====
   return (
+    <div className="container">
+
+    
     <div className={`app ${dark ? "dark" : ""}`}>
       <header>
         <h1>GTracker</h1>
@@ -196,6 +199,7 @@ export default function App() {
 
         <button onClick={resetAll}>Очистить</button>
       </footer>
+    </div>
     </div>
   );
 }

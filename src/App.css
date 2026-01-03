@@ -20,6 +20,10 @@ body {
     background-color: #000;
 }
 
+.container {
+    border-radius: 25px;
+}
+
 .app {
     max-width: 500px;
     margin: auto;
