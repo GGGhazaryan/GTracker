@@ -1,0 +1,80 @@
+:root {
+    --bg: #fff;
+    --text: #000;
+    --border: #000;
+}
+
+.dark {
+    --bg: #000;
+    --text: #fff;
+    --border: #fff;
+    --background: #000;
+}
+
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui;
+}
+
+.app {
+    max-width: 480px;
+    margin: auto;
+    padding: 16px;
+}
+
+header,
+footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+button,
+input {
+    border: 1px solid var(--border);
+    background: var(--bg);
+    color: var(--text);
+    padding: 8px;
+    border-radius: 8px;
+}
+
+main {
+    display: grid;
+    gap: 16px;
+    margin: 16px 0;
+}
+
+.tracker {
+    border: 1px solid var(--border);
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.counter {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.chart {
+    display: flex;
+    gap: 2px;
+    height: 40px;
+    margin-bottom: 8px;
+}
+
+.bar {
+    flex: 1;
+    background: var(--text);
+}
+
+.delete {
+    width: 100%;
+    opacity: 0.7;
+}
+
+.category {
+    margin-top: 6px;
+}
