@@ -8,15 +8,16 @@
     --green: #4CAF50;
     --red: #F44336;
     --primary: #4CAF50;
-    /* Зеленый */
+    /* Green */
     --secondary: #F44336;
-    /* Красный */
+    /* Red */
 }
 
 body {
     margin: 0;
     font-family: system-ui, sans-serif;
     transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: #000;
 }
 
 .app {
